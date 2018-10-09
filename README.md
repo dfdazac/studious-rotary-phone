@@ -3,3 +3,7 @@
 # studious-rotary-phone
 
 A collection of notebooks and artifacts on various topics of Artificial Intelligence. Most of them exported to posts for [my blog](https://dfdazac.github.io/writing/).
+
+- [Introduction to action value methods for reinforcement learning](00-rl-intro/multiarmed_test.ipynb)
+
+- [The Variational Autoencoder](01-vae/01-vae.ipynb)
