@@ -30,19 +30,13 @@ def make_mesh():
     return u1, u2, u
 
 
-def plot_surface(u1, u2, p_u, save_str=None):
-    fig = plt.gcf()
-    fig.set_size_inches(6, 6)
-    plt.cla()
+def plot_surface(u1, u2, p_u):
+    fig = plt.figure(figsize=(6, 6))
     ax = fig.gca(projection='3d')
     surf = ax.plot_surface(u1.numpy(), u2.numpy(), p_u.numpy(),
                            cmap='viridis', edgecolors='k', lw=0.4)
-#     ax.set_zlim((0, p_u.max().item() * 2.5))
-    ax.set_zlim((0, 0.4))
+    ax.set_zlim((0, p_u.max().item() * 2.5))
     ax.view_init(15, 135)
-    
-    if save_str is not None:
-        plt.savefig(save_str)
     
     
 def plot_density(distribution):
