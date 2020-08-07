@@ -6,3 +6,4 @@ A collection of notebooks and artifacts on various topics of Artificial Intellig
 
 - [Introduction to action value methods for reinforcement learning](00-rl-intro/multiarmed_test.ipynb)
 - [The Variational Autoencoder](01-vae/01-vae.ipynb)
+- [Transforming distributions with Normalizing Flows](02-flows/02-flows.ipynb)
